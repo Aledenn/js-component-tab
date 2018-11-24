@@ -32,3 +32,28 @@ bind:function(){
     })
 }
 ```
+
+### 如何使用
+写好header和content
+header为选择
+content为对应文本框
+```
+    <div class="mod-tab mod-tab1">
+        <div class="header">
+            <div class="tab active">1</div>
+            <div class="tab">2</div>
+            <div class="tab">3</div>
+            <div class="tab">4</div>
+        </div>
+        <div class="content">
+            <div class="panel active">panel1</div>
+            <div class="panel">panel2</div>
+            <div class="panel">panel3</div>
+            <div class="panel">panel4</div>
+        </div>
+    </div>
+```
+创建Tab
+```
+ new Tab('.mod-tab1')
+```
